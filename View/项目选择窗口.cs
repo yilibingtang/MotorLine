@@ -20,7 +20,7 @@ namespace 直流电机工作特性
 
         private void AddEditorButton_Click(object sender, EventArgs e)
         {
-            new 添加或编辑窗体();
+            new 添加或编辑窗体().ShowDialog();
         }
     }
 }

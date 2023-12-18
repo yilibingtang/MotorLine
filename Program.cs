@@ -16,7 +16,7 @@ namespace MotorLine
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new 直流电机工作特性.项目选择窗口());
         }
     }
 }
