@@ -34,18 +34,19 @@
             button2 = new System.Windows.Forms.Button();
             button3 = new System.Windows.Forms.Button();
             exitButton = new System.Windows.Forms.Button();
-            label1 = new System.Windows.Forms.Label();
+            pictureBox1 = new System.Windows.Forms.PictureBox();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)MotorDataGridView).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // groupBox1
             // 
             groupBox1.Controls.Add(MotorDataGridView);
             groupBox1.Location = new System.Drawing.Point(15, 150);
-            groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            groupBox1.Margin = new System.Windows.Forms.Padding(4);
             groupBox1.Name = "groupBox1";
-            groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            groupBox1.Padding = new System.Windows.Forms.Padding(4);
             groupBox1.Size = new System.Drawing.Size(329, 305);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
@@ -56,7 +57,7 @@
             MotorDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             MotorDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             MotorDataGridView.Location = new System.Drawing.Point(4, 20);
-            MotorDataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            MotorDataGridView.Margin = new System.Windows.Forms.Padding(4);
             MotorDataGridView.Name = "MotorDataGridView";
             MotorDataGridView.RowTemplate.Height = 23;
             MotorDataGridView.Size = new System.Drawing.Size(321, 281);
@@ -65,7 +66,7 @@
             // AddEditorButton
             // 
             AddEditorButton.Location = new System.Drawing.Point(352, 164);
-            AddEditorButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            AddEditorButton.Margin = new System.Windows.Forms.Padding(4);
             AddEditorButton.Name = "AddEditorButton";
             AddEditorButton.Size = new System.Drawing.Size(169, 58);
             AddEditorButton.TabIndex = 2;
@@ -76,7 +77,7 @@
             // button2
             // 
             button2.Location = new System.Drawing.Point(351, 246);
-            button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            button2.Margin = new System.Windows.Forms.Padding(4);
             button2.Name = "button2";
             button2.Size = new System.Drawing.Size(169, 58);
             button2.TabIndex = 3;
@@ -86,7 +87,7 @@
             // button3
             // 
             button3.Location = new System.Drawing.Point(352, 313);
-            button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            button3.Margin = new System.Windows.Forms.Padding(4);
             button3.Name = "button3";
             button3.Size = new System.Drawing.Size(169, 58);
             button3.TabIndex = 4;
@@ -96,7 +97,7 @@
             // exitButton
             // 
             exitButton.Location = new System.Drawing.Point(352, 397);
-            exitButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            exitButton.Margin = new System.Windows.Forms.Padding(4);
             exitButton.Name = "exitButton";
             exitButton.Size = new System.Drawing.Size(169, 58);
             exitButton.TabIndex = 5;
@@ -104,33 +105,33 @@
             exitButton.UseVisualStyleBackColor = true;
             exitButton.Click += exitButton_Click;
             // 
-            // label1
+            // pictureBox1
             // 
-            label1.AutoSize = true;
-            label1.Location = new System.Drawing.Point(227, 68);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(43, 17);
-            label1.TabIndex = 6;
-            label1.Text = "label1";
+            pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            pictureBox1.Location = new System.Drawing.Point(12, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new System.Drawing.Size(492, 131);
+            pictureBox1.TabIndex = 6;
+            pictureBox1.TabStop = false;
             // 
             // 项目选择窗口
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(536, 645);
-            Controls.Add(label1);
+            Controls.Add(pictureBox1);
             Controls.Add(exitButton);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(AddEditorButton);
             Controls.Add(groupBox1);
-            Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            Margin = new System.Windows.Forms.Padding(4);
             Name = "项目选择窗口";
             Text = "直流电动机工作特性应用软件";
             groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)MotorDataGridView).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -140,6 +141,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button exitButton;
         private System.Windows.Forms.DataGridView MotorDataGridView;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
