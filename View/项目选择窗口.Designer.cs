@@ -103,7 +103,7 @@
             exitButton.TabIndex = 5;
             exitButton.Text = "退出";
             exitButton.UseVisualStyleBackColor = true;
-            exitButton.Click += exitButton_Click;
+            exitButton.Click += ExitButton_Click;
             // 
             // pictureBox1
             // 

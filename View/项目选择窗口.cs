@@ -10,7 +10,7 @@ namespace 直流电机工作特性
             InitializeComponent();
         }
 
-        private void exitButton_Click(object sender, EventArgs e)
+        private void ExitButton_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("退出？", "确定?", MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
